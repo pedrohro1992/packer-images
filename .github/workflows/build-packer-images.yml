@@ -45,4 +45,3 @@ jobs:
       - name: Packer Build
         working-directory: ${{ inputs.template_path }}
         run: packer build .
-```
