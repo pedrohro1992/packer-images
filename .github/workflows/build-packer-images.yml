@@ -11,10 +11,11 @@ on:
         type: string
 
 permissions:
-  contents: read    
+  id-token: write
+  contents: read
 
 env:
-  PACKER_LOG: 1     
+  PACKER_LOG: 1
 
 jobs:
   build:
